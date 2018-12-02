@@ -1,6 +1,8 @@
 ssh-askpass
 ===========
 
+Note: The only reason this repo exists is so that I will consciously know about the changes from theseal's version when there are updates
+
 ssh-askpass for OS X/macOS. Works in (at least) 10.7+ (including High Sierra)
 
 Used to accept (or deny) the use of the private key(s) added to the SSH authentication agent with `ssh-add -c`.
@@ -15,7 +17,7 @@ Used to accept (or deny) the use of the private key(s) added to the SSH authenti
 * Run:
 
     ```
-    $ brew tap theseal/ssh-askpass
+    $ brew tap afzalive/ssh-askpass
     $ brew install ssh-askpass
     ```
 * Follow caveats
